@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/meAbout.png'
 import { FaAward } from 'react-icons/fa'
 import { IoIosSchool } from 'react-icons/io'
 import { AiFillYoutube } from 'react-icons/ai'
