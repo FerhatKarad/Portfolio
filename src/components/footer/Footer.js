@@ -8,12 +8,12 @@ const Footer = () => {
   return (
     <footer>
       <div className='footer__socials'>
-         <a href='https://facebook.com'> <FaFacebookF/></a>
-         <a href='https://instagram.com'> <FiInstagram/></a>
+         <a href='https://www.facebook.com/fero.ferhat.1/'> <FaFacebookF/></a>
+         <a href='https://www.instagram.com/fero.ferhat21/'> <FiInstagram/></a>
       </div>
       <div className='footer__copyright'>
        <small> © Ferhat Karadag  || </small>
-       <a href=''><small>Source of Code <FaGithub/></small></a>
+       <a href='https://github.com/FerhatKarad/Portfolio'><small>Source of Code <FaGithub/></small></a>
       </div>
     </footer>
   )
