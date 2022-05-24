@@ -11,11 +11,11 @@ const Navbar = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><FaSpaceShuttle /></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><GiSpaceSuit /></a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><GiSpaceship /></a>
-      <a href='#projects' onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}><MdWorkspacesFilled /></a>
-      <a href='#contact'  onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' :''}><AiOutlineMessage /></a>
+      <a href='/#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><FaSpaceShuttle /></a>
+      <a href='/#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><GiSpaceSuit /></a>
+      <a href='/#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><GiSpaceship /></a>
+      <a href='/#projects' onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}><MdWorkspacesFilled /></a>
+      <a href='/#contact'  onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' :''}><AiOutlineMessage /></a>
 
     </nav>
   )
