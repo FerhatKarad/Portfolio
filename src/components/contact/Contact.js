@@ -46,13 +46,13 @@ const Contact = () => {
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Fero Ferhat</h5>
-            <a href='https://m.me//fero.ferhat.1/' target='_blank'>Text Me on Messenger</a>
+            <a href='https://m.me//fero.ferhat.1/' target='_blank' rel="noreferrer">Text Me on Messenger</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>For faster answers</h5>
-            <a href="https://wa.me/4917632831486/" target='_blank'>Text Me on WhatsApp</a>
+            <a href="https://wa.me/4917632831486/" target='_blank' rel="noreferrer">Text Me on WhatsApp</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
